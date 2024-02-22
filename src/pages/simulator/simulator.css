@@ -1,0 +1,138 @@
+.simulator_container{
+    width: calc(100% - 50px);
+    padding: 25px;
+    padding-top: 0px;
+    float: left;
+}
+
+.simulator_container input{
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 98%;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--dark-blue-theme);
+}
+
+.simulator_title{
+    color: var(--dark-blue-theme);
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.simulator_input_box_container{
+    background-color: var(--light-grey);
+    width: 100%;
+    margin-top: 1%;
+    float: left;
+    font-family: 'Cambria Math', Arial;
+    color: var(--light-colour);
+    border-radius: 5px;
+}
+
+.simulator_input_box_details{
+    background-color: var(--dark-grey);
+    width: 98%;
+    padding: 1%;
+    float: left;
+}
+
+.simulator_input_box_container textarea{
+    background-color: var(--light-grey);
+    color: var(--dark-blue-theme);
+    width: 98%;
+    margin: 1%;
+    float: left;
+    border-style: none;
+    border-color: transparent;
+    overflow: auto;
+    outline: none;
+    font-family: 'Cambria Math', Arial;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.simulator_input_box_details_left,
+.simulator_input_box_details_right{
+    width: 50%;
+    float: left;
+}
+
+.simulator_input_box_details_right{
+    text-align: right;
+}
+
+.simulator_container button{
+    float: left;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+.simulator-section{
+    width: 100%;
+    float: left;
+}
+
+.simulator-section h1{
+    color: var(--dark-blue-theme);
+}
+
+
+.simulator-section .error_message{
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+}
+
+.simulator-section span{
+    color: var(--dark-blue-theme);
+    font-weight: 600;
+    font-family: 'Cambria Math', Arial;
+    font-size: 25px;
+}
+
+.red{
+    color: var(--red);
+}
+
+.green{
+    color: var(--green);
+}
+
+.sample_mean_results tr td{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--dark-blue-theme);
+}
+
+.simulator-bottom-section{
+    float: left;
+    width: 100%;
+}
+
+#save-message{
+    margin: 2%;
+    margin-left: 0%;
+    font-weight: 600;
+    float: left;
+}
+
+@media screen and (max-width: 500px){
+    .simulator_container button{
+        width: 100%;
+    }
+
+    .simulator_title,
+    .simulator_container input{
+        font-size: 15px;
+    }
+    
+}
+
+

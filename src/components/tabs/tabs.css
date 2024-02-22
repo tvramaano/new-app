@@ -1,0 +1,14 @@
+.tab_active,
+.tab_inactive{
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 10px;
+    line-height: 50px;
+    color: var(--dark-grey);
+    float: right;
+    cursor: pointer;
+}
+
+.tab_active{
+    color: var(--dark-blue-theme);
+}
